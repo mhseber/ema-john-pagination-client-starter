@@ -1,3 +1,5 @@
+import Lottie from "lottie-react";
+import lottieContact from "../../src/assets/lottie/contact.json"
 
 const Contact = () => {
     return (
@@ -38,6 +40,9 @@ const Contact = () => {
                         </button>
                     </div>
                 </form>
+            </div>
+            <div className="text-center lg:text-left w-96 pl-10">
+                <Lottie animationData={lottieContact}></Lottie>
             </div>
         </div>
     );
